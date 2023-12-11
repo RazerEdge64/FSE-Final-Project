@@ -1,0 +1,125 @@
+/* This file contains all the css for the core elements of the application */
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #f7f7f7;
+    /*padding: 20px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: row; /* Sidebar on the left, main content on the right */
+    flex-grow: 1; /* Allow the content area to grow and take up remaining space */
+}
+
+.menu {
+    flex-basis: 20%; /* Sidebar takes up 20% of the width */
+    border-right: 2px dotted #e0e0e0;
+    padding: 20px;
+}
+
+.content {
+    /*flex-grow: 1; !* Main content area takes up the remaining width *!*/
+    width: 80%; /* Explicitly set the width to 80% */
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/*-------*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header .headerName {
+    width: 85%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header .searchContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.main {
+    display: flex;
+}
+
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a.active {
+    background-color: #e0e0e0;
+}
+
+.content .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.content > div:not(.menu) {
+    flex-grow: 1;
+}
+
+.header-first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-first-row h2 {
+    flex: 1;
+}
+
+.header-first-row > div {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-second-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    /*gap: 0px;*/
+    background: white;
+}
+
+.questions > div {
+    border-bottom: 2px dotted #e0e0e0;
+    padding: 10px 0;
+}
+

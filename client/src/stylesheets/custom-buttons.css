@@ -1,0 +1,20 @@
+/*lets use this file for styling custom buttons*/
+.blue-button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+.blue-button:disabled {
+    background-color: #7387a4;
+    cursor: not-allowed; /* Changes cursor to a stop sign icon */
+
+}

@@ -1,0 +1,32 @@
+.tags-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+    gap: 20px;  /* Spacing between cards */
+    margin-top: 50px;
+}
+
+.tag-card {
+    border: 2px dotted #333;  /* Dotted border */
+    padding: 10px;
+    text-align: center;
+    width: 150px;  /* Fixed width */
+    word-wrap: break-word;  /* Wrap long words */
+    overflow: hidden;  /* Hide overflow */
+}
+
+
+.tag-link {
+    display: block;
+    margin-bottom: 5px;
+    color: #0077cc;  /* Link color */
+    text-decoration: none;
+}
+
+.tag-link:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+.tag-count {
+    font-size: 0.9em;
+    color: #666;  /* Grayish text color */
+}

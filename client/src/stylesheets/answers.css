@@ -1,0 +1,154 @@
+
+#answersContainer {
+    padding: 20px;
+    overflow-y: auto;
+    font-size: 18px;
+}
+
+#answersHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#questionContainer {
+    border: dotted 2px;
+    padding: 10px 0;
+}
+
+#questionBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*border-bottom: dotted 2px;*/
+    /*padding: 10px 0;*/
+}
+
+#questionBody > div:first-child {
+    flex: 0 0 100px; /* Fixed width of 40px for the left part */
+    text-align: left;
+}
+
+#questionBody > div:last-child {
+    flex: 0 0 200px; /* Fixed width of 70px for the right part */
+    text-align: right;
+}
+
+#questionBody > div:nth-child(2) {
+    flex: 1; /* This will make the center part take up the remaining width */
+    text-align: left;
+}
+
+#questionVotings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer-voting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.upvote-button-question {
+    /*background: none;*/
+    border: none;
+    cursor: pointer;
+    color: blue;
+    margin: 0; /* Remove any default margin */
+    padding: 1px; /* Adjust padding as needed */
+}
+.downvote-button-question {
+    /*background: none;*/
+    border: none;
+    cursor: pointer;
+    color: blue;
+    margin: 0; /* Remove any default margin */
+    padding: 1px; /* Adjust padding as needed */
+}
+.downvote-button-answer {
+    /*background: none;*/
+    border: none;
+    cursor: pointer;
+    color: blue;
+    margin: 0; /* Remove any default margin */
+    padding: 1px; /* Adjust padding as needed */
+}
+.upvote-button-answer {
+    /*background: none;*/
+    border: none;
+    cursor: pointer;
+    color: blue;
+    margin: 0; /* Remove any default margin */
+    padding: 1px; /* Adjust padding as needed */
+}
+
+.votes-display {
+    font-size: 14px;
+    margin: 0; /* Ensures no gap between the buttons and the vote count */
+}
+
+#tagsContainer {
+    padding-left: 100px;
+    /*display: inline-block;*/
+    /*background-color: gray;*/
+    /*color: white;*/
+    /*padding: 2px 8px;*/
+    /*border-radius: 4px;*/
+    /*border: 1px solid black;*/
+    /*font-size: 13px;*/
+}
+
+#tagsContainer span{
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+
+.answer {
+    display: flex;
+    border-bottom: 1px dotted #000;
+    border-top: 1px dotted #000;
+    padding: 10px 0;
+    flex-direction: row;
+    background: #efede9;
+}
+
+.answerText {
+    width: 85%;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.answerAuthor {
+    /*width: 30%;*/
+    font-size: 14px;
+    color: #777;
+}
+
+.accept-answer-button {
+    /* Your styles for the button */
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0px;
+    margin-right: 20px;
+    /* Other styles as needed */
+}
+
+.accepted-answer {
+    border: 2px solid green; /* Example styling */
+    background-color: #f0fff0; /* Light green background */
+    /* Add more styling as per your design */
+}

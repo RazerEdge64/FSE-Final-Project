@@ -1,0 +1,105 @@
+.user-functions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+
+    padding: 0 10px;
+
+}
+
+.user-functions div {
+    flex: 1;
+}
+
+.user-functions button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #c9c9c9;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.user-functions button:hover {
+    background-color: #e0e0e0;
+}
+
+.user-functions button:focus {
+    outline: none;
+}
+
+.user-details-container {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.user-question-title {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.user-question-title:hover {
+    color: darkblue;
+}
+
+.user-answers-container {
+    width: 100%;
+}
+
+.user-answer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-answer-link {
+    flex-grow: 1;
+}
+
+.user-answer-delete button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.user-answer-delete button:hover {
+    background-color: darkred;
+}
+
+
+
+.user-questions-container {
+    width: 100%;
+}
+
+.user-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-question-link {
+    flex-grow: 1;
+}
+
+.user-question-delete button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.user-question-delete button:hover {
+    background-color: darkred;
+}

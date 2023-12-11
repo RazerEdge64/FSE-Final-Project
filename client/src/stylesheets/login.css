@@ -1,0 +1,69 @@
+/*This file holds the css for the login functionality*/
+.form-group label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    /*width: 90%;*/
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.blue-button {
+    margin-top: 10px;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.action-button-register {
+    padding: 10px 20px;
+    margin: 0 10px; /* Adjust margin for spacing between buttons */
+    background-color: #c24500; /* Adjust color as per your design */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button-guest {
+    padding: 10px 20px;
+    margin: 0 10px; /* Adjust margin for spacing between buttons */
+    background-color: #00366b; /* Adjust color as per your design */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button-register:hover {
+    background-color: #7c2a00; /* Adjust hover color */
+}
+
+.action-button-guest:hover {
+    background-color: #000815; /* Adjust hover color */
+}

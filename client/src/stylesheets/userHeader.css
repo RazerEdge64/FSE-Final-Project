@@ -1,0 +1,34 @@
+.userControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.username-container {
+    display: flex;
+    flex-direction: row;
+}
+.username {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.logout {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem; /* Example size */
+}
+
+.login {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #0056b3;
+    margin-right: 5px;
+    /*font-size: 1.5rem; !* Example size *!*/
+}
+

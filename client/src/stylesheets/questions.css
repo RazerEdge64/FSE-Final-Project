@@ -1,0 +1,136 @@
+/*.question {*/
+/*    display: flex;*/
+/*    margin: 2px;*/
+/*}*/
+
+/*.postStats {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 5px;*/
+/*    !*align-items: flex-start;*!*/
+/*    align-items: center;*/
+/*    width: 10%;*/
+/*    justify-content: center;*/
+/*    font-size: 13px;*/
+/*    color: gray;*/
+/*    !*flex: 1;*!*/
+/*}*/
+
+
+/*.postTitle {*/
+/*    !*flex-grow: 3;*!*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    padding-right: 10px;*/
+/*    gap: 5px;*/
+/*    flex: 2;*/
+/*}*/
+
+/*.postTitle .postName a {*/
+/*    color: blue;*/
+/*    text-decoration: none;*/
+/*    cursor: pointer;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.postTitle .postName a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+
+/*.postTitle .postTags {*/
+/*    display: flex;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*.postTitle .postTags span {*/
+/*    display: inline-block;*/
+/*    background-color: gray;*/
+/*    color: white;*/
+/*    padding: 2px 8px;*/
+/*    border-radius: 4px;*/
+/*    border: 1px solid black;*/
+/*    font-size: 13px;*/
+/*}*/
+
+
+/*.lastActivity {*/
+/*    !*flex: 1;*!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    font-size: 14px;*/
+/*    width: 25%*/
+/*}*/
+
+/*.lastActivity span {*/
+/*    color: red;*/
+/*}*/
+
+.question {
+    display: flex;
+    margin: 2px;
+    align-items: center; /* To vertically align items in the row */
+}
+
+.postStats {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+    font-size: 13px;
+    color: gray;
+}
+
+.postTitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+    gap: 5px;
+    flex: 2;
+}
+
+.postTitleContainer .postName {
+    display: flex;
+    align-items: center; /* To vertically align the title */
+}
+
+.postTitleContainer .postName .postTitle a {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.postTitleContainer .postName .postTitle a:hover {
+    text-decoration: underline;
+}
+
+.postTitleContainer .postTags {
+    display: flex;
+    gap: 10px;
+}
+
+.postTitleContainer .postTags span {
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.lastActivity {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 25%;
+}
+
+.lastActivity span {
+    color: red;
+}
